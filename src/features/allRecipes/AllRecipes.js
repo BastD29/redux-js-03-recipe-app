@@ -9,7 +9,7 @@ export default function AllRecipes(props) {
     const onFirstRender = () => {
         dispatch(loadData());
     }
-    useEffect(onFirstRender, [])
+    useEffect(onFirstRender, [dispatch])
 
     return (
         <div id='all-recipes' className="recipes-container">
