@@ -1,6 +1,7 @@
 import React from 'react'
 
 export default function Recipe({recipe, children}) {
+  // console.log(recipe)
   return (
     <div key={recipe.id} className="recipe" tabIndex={0}>
       <span className="recipe-container">
