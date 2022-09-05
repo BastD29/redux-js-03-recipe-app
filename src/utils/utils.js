@@ -1,6 +1,3 @@
-import FavoriteButton from "../components/FavoriteButton";
-import Recipe from "../components/Recipe";
-
 export function getFilteredRecipes(recipes, searchTerm) {
     // console.log(recipes)
     // return recipes.filter(recipe => recipe.name.toLowerCase());
